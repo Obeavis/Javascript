@@ -1,0 +1,72 @@
+body {
+	background-color: #f3f3f3;
+}
+
+.Widgets {
+    color: white;
+	display: block;
+	min-height: 90px;
+	background: #fff;
+	width: 250px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	margin-bottom: 15px;
+	margin-left: 2.5%
+}
+
+.chat, .chart{
+    background-color: #fff;
+}
+
+.row {
+	margin-top:3%;
+}
+
+.box-icone {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: left;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+}
+
+.content-box {
+    padding: 5px 10px;
+    margin-left: 90px;
+}
+.box-json {
+    text-transform: uppercase;
+    font-family :'Anton';
+    color: 	#69727D;
+}
+
+.box-text {
+	font-family : 'Arsenal';
+	color: 	#BFBEC7;
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+#Orders{
+	background-color: #4592F9;
+}
+
+#Comment{
+	background-color: #FFBB00;
+}
+
+#Users{
+	background-color: #00CAAF;
+}
+
+#Views{
+	background-color: #EB0B00;
+}

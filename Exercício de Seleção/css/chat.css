@@ -1,0 +1,57 @@
+.chat {
+  font-family: 'Trebuchet MS';
+  margin-bottom: 20px;
+}
+
+.chat-header {
+  color: #777;
+  font-size: 25px;
+  border-bottom: 0.5px solid #eee;
+  height: 80px;
+}
+
+.fa-comments {
+  padding: 15px 10px 0px 25px;
+  font-size: 40px;
+}
+
+.chat_container .panel-body{
+  overflow-y: scroll;
+  overflow-x: hidden;
+	height: 300px;
+}
+.clearfix {
+  border-bottom: 0.5px solid #eee;
+  padding: 5px 10px 5px 0px;
+}
+
+.panel-footer {
+  border: 0.5px solid #eee;
+  padding: 15px;
+}
+
+.UserPicture{
+  width: 80px;
+  height: 80px;
+}
+ .right .MessageBody{
+  margin-right: 100px;
+}
+.left .MessageBody {
+  margin-left: 100px;
+}
+.MessageBody small{
+  color: #9fadbb;
+   margin-left: 4px;
+ }
+.MessageBody p{
+  margin: 0;
+  color: #777;
+}
+
+@media (max-width: 320px){
+  .MessageBody small{
+    margin-left: 0px;
+    display: block;
+  }
+}
